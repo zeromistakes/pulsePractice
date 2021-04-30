@@ -1,7 +1,7 @@
 .promo {
     min-height: 650px;
     padding: 21px 0 93px 0;
-    background: url(../../img/main.jpg) center (center / cover) no-repeat; 
+    background: url(../img/main.jpg) center (center / cover) no-repeat; 
     &__wrapper {
         display: flex;
         flex-direction: column;
@@ -11,7 +11,7 @@
     &__header {
         color: #ffffff;
         font-size: 42px;
-        font-weight: 700;
+        font-weight: $fw-bold;
         text-transform: uppercase;
         line-height: 42px;
     }
