@@ -5,6 +5,9 @@
     font-family: 'Museo Sans Cyrl',sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
 .container {
     max-width: 950px;
     margin: 0 auto;
@@ -18,3 +21,4 @@
 @import 'blocks/forms';
 @import 'blocks/consultation';
 @import 'blocks/carousel';
+@import 'blocks/catalogue';
